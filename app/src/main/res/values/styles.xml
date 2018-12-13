@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GeneralTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomActionBarTheme1" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBar1</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar1" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list1</item>
+    </style>
+
+    <style name="title1" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+
+    </style>
+
+    <style name="author1" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="date1" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="section1" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+</resources>

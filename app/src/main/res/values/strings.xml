@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">News Tube</string>
+    <string name="news_heading">News Heading</string>
+    <string name="_anonymous">Anonymous</string>
+    <string name="date">22 Aug,2018</string>
+    <string name="section">Section</string>
+    <string name="no_internet_connection_please_connect_to_the_internet">No Internet Connection Found. Please try again.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_min_news_label">Minimum News</string>
+    <string name="settings_min_news_key" translatable="false">min_news</string>
+    <string name="settings_min_news_default" translatable="false">0</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_news_value</string>
+
+    <string name="settings_order_by_newest_news_label">Newest</string>
+    <string name="settings_order_by_newest_news_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_oldest_news_label">Oldest</string>
+    <string name="settings_order_by_oldest_news_value" translatable="false">oldest</string>
+
+    <string name="settings_order_by_relevance_news_label">Relevance</string>
+    <string name="settings_order_by_relevance_news_value" translatable="false">relevance</string>
+
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_news_key" translatable="false">section</string>
+    <string name="settings_section_news_default" translatable="false">@string/settings_section_all_news_value</string>
+
+    <string name="settings_section_all_news_label">All</string>
+    <string name="settings_section_all_news_value" translatable="false">all</string>
+
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_politics_value" translatable="false">politics</string>
+
+    <string name="settings_section_world_news_label">World news</string>
+    <string name="settings_section_world_news_value" translatable="false">world</string>
+
+    <string name="settings_section_media_network_news_label">Media Network</string>
+    <string name="settings_section_media_network_news_value" translatable="false">media-network</string>
+
+    <string name="settings_section_society_label">Society</string>
+    <string name="settings_section_society_value" translatable="false">society</string>
+
+    <string name="settings_section_Business_news_label">Business</string>
+    <string name="settings_section_Business_value" translatable="false">business</string>
+
+    <string name="settings_section_Film_news_label">Film</string>
+    <string name="settings_section_Film_value" translatable="false">film</string>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_news_label</item>
+        <item>@string/settings_order_by_oldest_news_label</item>
+        <item>@string/settings_order_by_relevance_news_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_news_value</item>
+        <item>@string/settings_order_by_oldest_news_value</item>
+        <item>@string/settings_order_by_relevance_news_value</item>
+    </string-array>
+
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_all_news_label</item>
+        <item>@string/settings_section_technology_label</item>
+        <item>@string/settings_section_politics_label</item>
+        <item>@string/settings_section_media_network_news_label</item>
+        <item>@string/settings_section_Business_news_label</item>
+        <item>@string/settings_section_society_label</item>
+        <item>@string/settings_section_Film_news_label</item>
+        <item>@string/settings_section_world_news_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_all_news_value</item>
+        <item>@string/settings_section_technology_value</item>
+        <item>@string/settings_section_politics_value</item>
+        <item>@string/settings_section_media_network_news_value</item>
+        <item>@string/settings_section_Business_value</item>
+        <item>@string/settings_section_society_value</item>
+        <item>@string/settings_section_Film_value</item>
+        <item>@string/settings_section_world_news_value</item>
+    </string-array>
+</resources>
